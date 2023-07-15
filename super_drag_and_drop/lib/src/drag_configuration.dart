@@ -30,12 +30,12 @@ class DragItem extends DataWriterItem {
 class DragConfigurationItem {
   DragConfigurationItem({
     required this.item,
-    required this.image,
+    //required this.image,
     this.liftImage,
   });
 
   final DragItem item;
-  final TargetedWidgetSnapshot image;
+  //final TargetedWidgetSnapshot image;
   final TargetedWidgetSnapshot? liftImage;
 }
 

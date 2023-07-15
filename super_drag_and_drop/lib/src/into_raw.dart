@@ -19,7 +19,7 @@ extension DragItemsIntoRaw on List<DragConfigurationItem> {
     for (final (index, item) in indexed) {
       items.add(raw.DragItem(
         dataProvider: handles[index],
-        image: item.image,
+        //image: item.image,
         liftImage: item.liftImage,
         localData: item.item.localData,
       ));

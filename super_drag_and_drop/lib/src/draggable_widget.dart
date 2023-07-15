@@ -152,7 +152,7 @@ class DragItemWidgetState extends State<DragItemWidget> {
       final image = await _getSnapshot(location);
       if (image != null) {
         return DragConfigurationItem(
-            item: item, image: image.image, liftImage: image.liftImage);
+            item: item, liftImage: image.liftImage);
       }
     }
     return null;
